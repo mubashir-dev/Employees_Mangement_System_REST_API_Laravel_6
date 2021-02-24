@@ -1,0 +1,53 @@
+
+Project : [Employees Management System][REST API]
+
+Models
+[
+    Employee[About Employee]
+    Department[Works Where]
+    Accounts[Pays and Incentives]
+    Leaves[Monthly Attendance]
+]
+Controllers
+[   
+    EmployeeController
+    DepartmentController
+    AccountController
+    LeavesController
+]
+
+Views
+[
+    No view files will be created 
+]
+========================================
+
+How data will be shown
+
+[Employee]
+{
+    id  employee_id   name     email            cnic         contact                 dept_id               address
+    1   EE-001      Ahmed Ali   a@gmail.com    13100-222-1    022222      1        Abbottabad
+}
+[Department]
+{
+    id   title   description
+    1   R and D     None
+}
+[Accounts]
+{
+    id employee_id fixed_pay incentive 
+}
+[Leaves]
+{
+id   date     time    employee_id  status  
+1  1-01-21  12:20PM      1           p[present]
+}
+
+
+
+Project Progress
+[Employees]
+{
+    All API end points have been developed
+}
